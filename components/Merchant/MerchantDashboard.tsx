@@ -10,7 +10,7 @@ import OrdersPage from './OrdersPage'
 import { db } from '@/utils/supabase/client'
 import MerchantSettingsTab from '@/components/Merchant/MerchantSettingsTab'
 import { Product, Client, Order } from '@/utils/supabase/types'
-import StatBI from './StatBI'  // Le fichier que tu veux importer
+import StatBI from './statBI'  // Le fichier que tu veux importer
 import PwdIdButton from '@/components/ui/PwdIdButton'
 import CompanyInfoForm from './CompanyInfoForm'
 
@@ -1249,4 +1249,5 @@ const filteredProducts = products.filter(p => {
 )}
     </div>
   )
+
 }
