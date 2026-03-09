@@ -1,0 +1,40 @@
+{
+  "name": "tradepro",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.8",
+    "date-fns": "^3.6.0",
+    "framer-motion": "^12.34.3",
+    "lucide-react": "^0.363.0",
+    "next": "14.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-player": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.24",
+    "@types/react": "18.2.61",
+    "@types/react-dom": "18.2.19",
+    "autoprefixer": "10.4.18",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.1.0",
+    "postcss": "8.4.35",
+    "tailwindcss": "3.4.1",
+    "typescript": "5.3.3"
+  },
+  "overrides": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "resolutions": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "appId": "com.tradepro.app",
+  "appName": "TradePro",
+  "webDir": "out",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
